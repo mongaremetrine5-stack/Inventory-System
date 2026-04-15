@@ -56,4 +56,7 @@ def delete_item(item_id):
     inventory = [i for i in inventory if i["id"] != item_id]
 
     return {"message": "Item deleted"}
-    
+
+
+if __name__ == "__main__":
+    app.run(debug=True)

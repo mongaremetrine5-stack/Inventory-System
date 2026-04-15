@@ -40,5 +40,3 @@ def menu():
 
         elif choice == "5":
             break
-
-menu()

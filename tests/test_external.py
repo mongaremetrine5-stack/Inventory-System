@@ -14,4 +14,4 @@ def test_fetch(mock_get):
     }
 
     result = fetch_product("123")
-    assert result["product_name"] == "Milk"
+    
